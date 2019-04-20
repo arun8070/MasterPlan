@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        android:layout_height="80dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+    >
+
+        <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="36dp"
+        >
+
+            <TextView
+                    android:id="@+id/img_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="5 Hr"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+            />
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+        >
+
+            <TextView
+                    android:singleLine="true"
+                    android:id="@+id/header_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make Planning app"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingStart="6dp"
+                    android:paddingBottom="6dp"
+            />
+
+            <TextView
+                    android:id="@+id/desc_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Make app of pplanning with specifications of what and when to do and other features one can think."
+                    android:textSize="14sp"
+                    android:paddingStart="6dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
