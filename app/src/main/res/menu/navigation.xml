@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_on_going"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/on_going"/>
+
+    <item
+            android:id="@+id/navigation_coming_soon"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/coming_soon"/>
+
+    <item
+            android:id="@+id/navigation_completed"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/completed"/>
+
+</menu>
